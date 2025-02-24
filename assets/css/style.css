@@ -29,7 +29,15 @@ h1 {
     width: 30px;
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
 
 
 
