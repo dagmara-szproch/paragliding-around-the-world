@@ -17,9 +17,49 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <h1>Paraglobe</h1>
-    <p>Paragliding Without Limits</p>
+<!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+    <div>Navigation</div>
+
+    <!-- Header with carousel -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">Intro text</div>
+            <div class="col-12 col-xl-6">Carousel</div>
+        </div>
+    </header>
+
+    <!-- Main element including sections on services, testimonials. It is not part of the grid structure -->
+    <main>
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer section/ contact-->
+    <!-- mt-auto to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- Sign up -->
+                 <div class="col-12 col-md-6 col-xl-4">Sign up for our newsletter</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+            </div>
+        </div>
+
+
+    </footer>
+
 
     <!-- Bootstrap JS script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
