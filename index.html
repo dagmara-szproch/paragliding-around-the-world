@@ -61,7 +61,7 @@
             <div class="col-12 col-xl-6">
                 <h1 class="display-3">Paraglobe</h1>
                 <p class="lead display-6">Paragliding adventures</p>
-                <p class="my-4">We pour our heart and passion into every expedition we organize, ensuring unforgettable experiences. Our carefully selected destinations across Europe are perfect for beginners, offering breathtaking scenery and adventure. Choose from weekend getaways, week-long escapes, or immersive two-week journeys. For thrill-seekers, we also offer an exciting range of trips to some of the world’s most stunning locations.
+                <p class="my-4">We pour our heart and passion into every expedition we organise, ensuring unforgettable experiences. Our carefully selected destinations across Europe are perfect for beginners, offering breathtaking scenery and adventure. Choose from weekend getaways, week-long escapes, or immersive two-week journeys. For thrill-seekers, we also offer an exciting range of trips to some of the world’s most stunning locations.
                 </p>
             </div>
             <div class="col-12 col-xl-6">
@@ -127,16 +127,48 @@
         </div>
     </header>
 
-    <!-- Main element including sections on services, testimonials. It is not part of the grid structure -->
+    <!-- Main element including sections on FAQs, testimonials. It is not part of the grid structure -->
     <main>
-        <!-- Services section -->
+        <!-- Expandable FAQ Section using Bootstrap .accordion-flush -->
         <section class="container">
             <div class="row">
                 <div class="col-12">Services section heading</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
-                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!-- FAQ 1 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Do I need to be fit to paraglide?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">You don’t need to be an athlete, but a basic level of fitness helps. You should be able to run a few steps for takeoff and landing. Be prepare to carry your paragliding equipment, which can be relatively heavy (around 15-20kg). If you have any health concerns, consult a doctor before flying.</div>
+                      </div>
+                    </div>
+                    <!-- FAQ 2 -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          What weather conditions are best for paragliding?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Light to moderate winds (5-15 mph) with a stable direction are ideal for easy takeoff and landing. Sunny days with good thermal activity—rising columns of warm air that provide lift—allow for sustained flight. Avoid flying in strong winds, storms, or turbulent conditions. Early mornings and late afternoons often offer the best weather for paragliding.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          How long does it take to learn paragliding?
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">A basic beginner’s course usually takes 5-7 days. To fly solo safely, you’ll need further practice and certification, which can take several weeks or months depending on your progress.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </section>
     </main>
