@@ -21,9 +21,17 @@ h1 {
     color: var(--primary-color);
 }
 
-h2 {
+h2, .lead {
     font-family: var(--secondary-font);
-    text-transform: uppercase;
+}
+
+h3 {
+    font-family: var(--secondary-font);
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -35,23 +43,42 @@ h2 {
     width: 30px;
 }
 
-.section {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
 /* Header */
 #header .lead {
     font-family: var(--secondary-font);
 }
 
+/* Footer/ Contact */
 
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
 
+#contact h3 {
+    color: var(--secondary-color);
+}
 
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    font-size: 2.2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: white;
+
+}
 
 /* grid visualisation CSS for testing */
-/* 
-.container,
+
+/* .container,
 .row {
     border: 2px solid black;
 }
