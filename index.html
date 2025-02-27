@@ -54,7 +54,7 @@
         </div>
       </nav>
 
-    <!-- Header with carousel -->
+    <!-- Header with Bootstrap carousel -->
 
     <header id="header" class="container section">
         <div class="row">
@@ -130,10 +130,10 @@
     <!-- Main element including sections on FAQs, testimonials. It is not part of the grid structure -->
     <main>
         <!-- Expandable FAQ Section using Bootstrap .accordion-flush -->
-        <section class="container">
+        <section class="container section">
             <div class="row">
                 <div class="col-12">
-                  <h2 class="display-6"><strong>Paragliding Q&A</strong></h2>
+                  <h2 class=""><strong>Paragliding Q&A</strong></h2>
                 </div>
                 <div class="col-12">
                   <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -212,13 +212,32 @@
     <!-- Footer section/ contact-->
     <!-- mt-auto to push footer to the bottom of the page -->
     <footer class="mt-auto">
-        <div class="container">
+        <div class="container section">
             <div class="row justify-content-center">
-                <div class="col-12">Contact section heading</div>
-                <!-- Sign up -->
-                 <div class="col-12 col-md-6 col-xl-4">Sign up for our newsletter</div>
+                <div class="col-12 text-center">
+                  <h2 class="visually-hidden">Contact us!</h2>
+              </div>
                 <!-- Contact info -->
-                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <div class="col-12 col-md-6 col-xl-4">
+                  <h3 class="">Contact info</h3>
+                  <address>
+                    <strong><i class="fa-solid fa-location-dot"></i> Paraglobe</strong><br>
+                    12 Skyglide Avenue<br>
+                    Southampton<br>
+                    SO15 3FL
+                  </address>
+                  <p><i class="fa-solid fa-envelope"></i> info@paraglobe.co</p>
+                  <div class="social-links mt-4">
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.x.com/" target="_blank" aria-label="Visit our X feed (opens in a new tab)" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" aria-label="Visit our YouTube page (opens in a new tab)" rel="noopener"><i class="fa-brands fa-youtube"></i></a>        
+                  </div>
+                </div>
+                <!-- Sign up -->
+                <div class="col-12 col-md-6 col-xl-4">
+                  <h3 class="">Join our newsletter</h3>
+                </div>
             </div>
         </div>
     </footer>
