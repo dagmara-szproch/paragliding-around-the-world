@@ -1,10 +1,10 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend:wght@300&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
 
 /* CSS Variables */
 :root {
     --primary-font: 'Lexend';
-    --secondary-font: 'Funnel Sans';
+    --secondary-font: 'Roboto';
     --title-font: 'Zen Dots';
     --primary-color: #1879f0 /* blue */;
     --secondary-color: #f08f18 /* orange */;
@@ -21,11 +21,7 @@ h1 {
     color: var(--primary-color);
 }
 
-h2, .lead {
-    font-family: var(--secondary-font);
-}
-
-h3 {
+.lead, h2, h3 {
     font-family: var(--secondary-font);
 }
 
@@ -78,7 +74,7 @@ h3 {
 
 /* grid visualisation CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
 }
@@ -86,4 +82,4 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+} */
