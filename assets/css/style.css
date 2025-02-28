@@ -25,6 +25,10 @@ h1 {
     font-family: var(--secondary-font);
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -43,6 +47,10 @@ h1 {
 #header .lead {
     font-family: var(--secondary-font);
 }
+
+/* Events */
+
+/* #events .card */
 
 /* Footer/ Contact */
 
@@ -70,6 +78,40 @@ h1 {
 #contact .social-links i:hover {
     color: white;
 
+}
+
+/* Media  queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make all events cards the same height for consistency */
+    #events .card-body {
+        min-height: 190.48px;
+    }    
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /* Make all events cards the same height for consistency */
+    #events .card-body {
+        min-height: auto;
+    }    
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Make all events cards the same height for consistency */
+    #events .card-body {
+        min-height: 251.19px;
+    }    
+}
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /* Make all events cards the same height for consistency */
+    #events .card-body {
+        min-height: 203.19px;
+    }    
 }
 
 /* grid visualisation CSS for testing */
