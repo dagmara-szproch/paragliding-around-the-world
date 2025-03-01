@@ -41,6 +41,21 @@ hr {
     color: var(--primary-color);
 }
 
+/* Buttons */
+.custom-button {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.custom-button:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
