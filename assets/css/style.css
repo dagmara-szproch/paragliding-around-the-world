@@ -6,8 +6,8 @@
     --primary-font: 'Lexend';
     --secondary-font: 'Roboto';
     --title-font: 'Zen Dots';
-    --primary-color: #1879f0 /* blue */;
-    --secondary-color: #f08f18 /* orange */;
+    --primary-color: #003459 /* dark blue */;
+    --secondary-color: #BDDEFF /* light blue*/;
 }
 
 /* Global styles */
