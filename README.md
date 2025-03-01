@@ -130,4 +130,35 @@ Google Fonts https://fonts.google.com/ was used to select the typography for the
 Font Awesome https://fontawesome.com/ was used to select icons that visually reinforce their associated meanings. Each icon was carefully chosen to enhance user understanding and navigation. For example, a **map pin** icon was used for the address, as it is commonly associated with locations on maps. A **calendar icon** was selected to represent event dates, making it immediately clear and recognisable. These icons contribute to a more intuitive and user-friendly design.
 
 #### Images/Videos
-Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, an video file featuring the view of paragliders taking off was included to enhance the immersive experience.
+Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, a video file featuring the view of paragliders taking off was included to enhance the immersive experience.
+
+---
+
+## Credits
+
+### Media
+
+#### Images
+**Images for the carousel**
+- https://www.pexels.com/photo/two-people-paragliding-together-12575878/
+- https://www.pexels.com/photo/winter-paragliding-adventure-in-the-alps-29989277/
+- https://pixabay.com/photos/paragliding-paraglider-4493110/
+- https://pixabay.com/photos/paraglider-nostalgia-flying-1306371/
+- https://www.pexels.com/photo/person-paragliding-above-the-fields-15737001/
+- https://www.pexels.com/photo/parachuters-on-the-grass-field-13623041/
+- https://pixabay.com/photos/paramotor-flight-paragliding-flying-5335016/
+
+**Images for the events cards**
+- https://www.pexels.com/photo/people-paragliding-in-mountain-valley-6149892/
+- https://www.pexels.com/photo/people-using-parachute-5322131/
+- https://pixabay.com/photos/mountain-semnoz-annecy-landscape-4692933/
+- https://pixabay.com/photos/bariloche-argentina-patagonia-lake-7286017/
+- https://pixabay.com/photos/owens-valley-california-sierra-4945130/
+- https://pixabay.com/photos/fishtail-mountain-pokhara-city-5009522/
+- https://pixabay.com/photos/landscape-nature-mountains-heaven-4932848/
+
+**Video**
+- https://www.pexels.com/video/paragliders-flying-in-a-mountain-landscape-with-low-clouds-13240703/
+
+**Logo**
+- Logo image generated using DALL·E, an AI image-generation tool by OpenAI.
