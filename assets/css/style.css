@@ -37,6 +37,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+hr {
+    color: var(--primary-color);
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
