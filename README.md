@@ -14,7 +14,7 @@ The primary objective of the website is to **attract more clients** by:
 
 ---
 
-## User Personas
+### User Personas
 1. Absolute Beginner
 - Someone who has never tried paragliding and wants to learn more about it.
 - They need basic information about equipment, safety, and first steps.
@@ -28,7 +28,7 @@ The primary objective of the website is to **attract more clients** by:
 - They want exciting international events with stunning scenic views.
 
 ---
-## User Stories
+### User Stories
 
 1. User Story (must-have)
 As a new customer, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
@@ -111,3 +111,23 @@ As a customer, I want to easily reserve my place on a trip or event and request 
 - Add a Contact & Booking page.
 - Create a form with the following fields: Name, Email, Phone Number, Event Selection and a Message box for enquires.
 - Implement a confirmation page to acknowledge form submission.
+
+---
+### Design Choices
+
+#### Colour Scheme
+The colour scheme was carefully selected using a Contrast Checker https://webaim.org/resources/contrastchecker/ to ensure accessibility and readability.
+- #003459 Prussian blue was chosen as the primary colour, as it evokes a sense of depth and stability while complementing sky-themed imagery. After browsing gradients,
+- #BDDEFF French Pass was selected for its excellent contrast ratio, creating a harmonious and visually appealing design that enhances both text and images.
+
+#### Fonts
+Google Fonts https://fonts.google.com/ was used to select the typography for the website, ensuring readability and visual appeal. 
+- Zen Dots was chosen for H1 headings, giving a modern and dynamic look.
+- Lexend, a sans-serif font with a strong readability rating, is used for body text to enhance the user experience. 
+- Roboto was selected for H2 and H3 headings, providing a clean and professional appearance while maintaining consistency across the design.
+
+#### Icons
+Font Awesome https://fontawesome.com/ was used to select icons that visually reinforce their associated meanings. Each icon was carefully chosen to enhance user understanding and navigation. For example, a **map pin** icon was used for the address, as it is commonly associated with locations on maps. A **calendar icon** was selected to represent event dates, making it immediately clear and recognisable. These icons contribute to a more intuitive and user-friendly design.
+
+#### Images/Videos
+Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, an video file featuring the view of paragliders taking off was included to enhance the immersive experience.
