@@ -72,8 +72,9 @@ hr {
 }
 
 /* Events */
-
-/* #events .card */
+#events h3 {
+    color: var(--primary-color);
+}
 
 /* Footer/ Contact */
 
