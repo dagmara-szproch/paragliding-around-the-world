@@ -124,6 +124,7 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 - https://fonts.google.com/ to import fonts.
 - https://www.birme.net/ to resize, crop, compress and change the image format to WEBP.
 - https://tinypng.com/ to compress the images.
+- https://www.freeconvert.com/video-compressor video compressor.
 - https://webaim.org/resources/contrastchecker/ to check the contrast between colours.
 - https://pixabay.com/ to downland the images for the carousel and cards.
 - https://www.pexels.com/ to downland a video file and images.
@@ -131,3 +132,33 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 - https://openai.com/chatgpt/overview/ to create logo.
 - https://jigsaw.w3.org/css-validator/ to test style.css
 - https://validator.w3.org/ Markup Validation Service
+- Lighthouse Chrome Dev Tools for testing.
+- GitHub to store my project, project board.
+
+## Testing
+
+https://validator.w3.org/ was used to validate the HTML on all pages, and https://jigsaw.w3.org/css-validator/ for style.css
+- [index.html ](docs/w3w/w3c-index.png)
+- [events.html](docs/w3w/w3c-events.png)
+- [contact.html](docs/w3w/w3c-contact.png)
+- [success.html](docs/w3w/w3c-success.png)
+- [style.css](docs/w3w/w3w-css.png)
+
+### Bugs
+ 1. I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
+
+2. The second bug I discovered was also through W3C validation. It turned out that I had used the same id="name" and id="email" for both the contact form and the newsletter signup form. This issue only became visible on the contact page because both forms appeared there. To resolve it, I changed the id and name attributes in the contact form to name-contact and email-contact. This fixed the issue.
+
+3. A common problem I encountered was unexpected changes on the page—elements disappearing or moving unexpectedly. These were usually caused by accidental edits when my cursor was in the wrong place. I learned to use Ctrl + Z to undo and Ctrl + Y to redo changes, which helped resolve such issues efficiently.
+
+4. Another problem I encountered was with accessibility. When I ran Lighthouse in Chrome DevTools, it showed an accessibility score of 95%. The issue was related to poor contrast between text and background colors. To fix this, I adjusted the colors to improve readability.
+
+5. Lighthouse also flagged another accessibility issue: my buttons were too small. The recommended minimum size is 24px, and I wasn’t fully satisfied with the buttons in the navbar. Taking this into account, I set the nav-items and all buttons to 1.25rem. While they might appear large to some, I believe they are now more accessible, particularly for users with vision impairments.
+
+6. There were also smaller problems, such as sizing issues, which I resolved through trial and error. All responsiveness-related issues were addressed by following the Code Institute tutorials.
+
+### Unresolved Bugs
+1. One unresolved issue remains with the newsletter signup form. I wanted to use Bootstrap’s modal to confirm the signup, but when I implemented it, the name and email fields were no longer required. I tried changing the button’s type="submit", but this did not work. For now, I have linked the submit button to the existing success/thank-you page, which was originally intended for the contact & booking form. A potential quick fix could be creating a separate thank-you page without the navbar and footer, containing only a link back to the homepage and a confirmation message.
+
+
+
