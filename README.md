@@ -256,7 +256,7 @@ The website was deployed using GitHub Pages, which provides a simple way to host
 
 --
 
-## Maintaince & Updates
+## Maintenance & Updates
 Ongoing maintenance and updates are essential to ensure the website remains functional, informative, and user-friendly. Below are planned improvements and updates for the project:
 
 1. Enhanced Trip Descriptions
