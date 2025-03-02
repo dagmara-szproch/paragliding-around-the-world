@@ -51,6 +51,7 @@ As a Regular Customer, I want to sign up for a newsletter and updates, so I can 
 7. User Story (must-have)
 As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
+- [View Full User Stories, including acceptance criteria and tasks](docs/user-stories.txt)
 ---
 ### Design Choices
 
@@ -74,6 +75,9 @@ Images were carefully selected from Pixabay https://pixabay.com/ and Pexels http
 ---
 
 ## Credits
+
+### Content
+- https://openai.com/chatgpt/overview/ The content was written by me but was reviewed for spelling, grammar and consistency, and enhanced with the help of ChatGPT. Some sections were also translated and refined to improve readability. I also asked ChatGPT for FAQs about paragliding, and it provided the answers. Additionally, ChatGPT helped by providing information on the best places to paraglide and the reasons why they are ideal.
 
 ### Media
 
@@ -101,3 +105,7 @@ Video
 
 Logo
 - Logo image generated using DALL·E, an AI image-generation tool by OpenAI.
+
+### Design
+The design of this website was inspired by the Boardwalk Games tutorial from Code Institute. Some layout and styling solutions were adapted from the tutorial to fit the needs of this project.
+Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, but the concept of two columns on large devices and up was taken from the tutorial). The events page layout with cards and their styling was also inspired by the tutorial. The contact page, including the form code, was fully incorporated from the tutorial as it suited the project's needs.
