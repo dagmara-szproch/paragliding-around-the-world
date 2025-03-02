@@ -135,6 +135,30 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 - Lighthouse Chrome Dev Tools for testing.
 - GitHub to store my project, project board.
 
+## Features
+The website consists of four pages, three of which are accessible from the navigation bar. All pages share the same navbar and footer.
+
+- The navbar includes a logo positioned on the left, which also serves as a link to the homepage. On the right side, there is a menu with links to Home and Events 2025, as well as a button-link leading to the Contact & Booking page. This button is visually distinct from the other navigation items with a different colour. The navbar expands on large devices, while on smaller screens, it appears as a burger menu icon. The navbar is also fixed to the top of the page.
+
+- The footer contains basic contact information, including the address and email address. On the right side, there are four social media links, while on the left, there is a sign-up form for the newsletter.
+
+- Home Page
+The homepage features a header with a call-to-action (CTA) text, encouraging users to join an expedition, along with a CTA button linking to the booking page. Within the same container, on the right side, there is a Bootstrap carousel displaying images. Below the header, there is an FAQ section, implemented using the Bootstrap accordion.
+
+- Events Page
+This page also includes a header beneath the navbar, similar in layout to the homepage. It contains CTA text encouraging participation (with different content than on the homepage) and a CTA button linking to the Contact & Booking page. On the right side, there is a muted, autoplaying video, with buttons allowing users to control navigation.
+
+- Below the header, there is a section showcasing upcoming trips, using Bootstrap cards. Each card consists of: An image / The destination name / A short description / The date / The difficulty level / The price
+Below the event cards, there is a button leading to the Contact & Booking page.
+
+- Contact Page
+This page contains a Bootstrap form with the following required fields:
+Name, Email (must include @ symbol), Phone number (only numerical values allowed), Dropdown menu with selectable trip options (eight trips to choose from) , Text box.
+Below the form, there is a button-link leading to the final page, which is not accessible from the navbar.
+
+- Confirmation / Thank You Page
+The final page displays a thank-you note and confirmation that the request has been received. Below the message, there is a button to return to the homepage.
+
 ## Deployment
 GitHub pages was used to deploy the project.
 
