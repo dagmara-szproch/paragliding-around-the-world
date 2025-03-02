@@ -200,3 +200,27 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 
 ![contact page](image-7.png)
 ![confirmation page](image-8.png)
+
+
+### Manual Testing
+
+Manual testing was performed on two different browsers—Chrome and Microsoft Edge — on both a laptop with a large screen and a mobile phone (Android) using Chrome.
+
+1. On every page, I clicked all possible links to ensure they behaved as expected. External links correctly opened in a separate window.
+
+I also tested the Contact & Booking form:
+
+2. I attempted to submit the form without entering any data, and it correctly prompted me to fill in the first required field (Name).
+I tested each required field individually by leaving one empty at a time, and the form consistently displayed the appropriate validation message.
+The Select options worked as expected, preventing submission if "Select an option" was chosen. Users were required to select an event/trip to proceed.
+
+3. The Newsletter Signup form revealed some issues:
+
+Initially, both fields worked as expected, preventing submission without filling them in.
+However, after adding a modal confirmation button, the required fields no longer worked properly — the modal appeared without any validation.
+To resolve this temporarily, I linked the signup form to the existing success/thank-you page, which now functions correctly.
+
+4. Other tested elements:
+
+- The logo, which links to the homepage, was checked and worked as expected, redirecting correctly every time.
+- The Success/Thank You page was also tested, including the "Return to Home" button, which functioned properly.
