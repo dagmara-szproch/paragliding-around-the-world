@@ -201,29 +201,29 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 
 - As a **New Customer**, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
 
-![Hero section with engaging images using carousel](image.png)
-![FAQ section answering beginner question](image-1.png)
+![Hero section with engaging images using carousel](docs/image.png)
+![FAQ section answering beginner question](docs/image-1.png)
 
 - As a **First-Time Visitor**, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
 
-![Fixed navigation bar](image-2.png)
-![mobile and tablet responsiveness](image-3.png)
+![Fixed navigation bar](docs/image-2.png)
+![mobile and tablet responsiveness](docs/image-3.png)
 
 - As a **Potential Customer**, I want to see available courses and expeditions, so I can choose the best option for me.
-![a list of upcoming events](image-4.png)
+![a list of upcoming events](docs/image-4.png)
 
 - As an **Experienced Paraglider**, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
 
-![events clearly marked as beginner, intermediate or advanced](image-5.png)
+![events clearly marked as beginner, intermediate or advanced](docs/image-5.png)
 
 - As a **Regular Customer**, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
 
-![a subscription form for newsletter](image-6.png)
+![a subscription form for newsletter](docs/image-6.png)
 
 - As a **Customer**, I want to easily reserve my place on a trip or event and request more information about it.
 
-![contact page](image-7.png)
-![confirmation page](image-8.png)
+![contact page](docs/image-7.png)
+![confirmation page](docs/image-8.png)
 
 
 ### Manual Testing
