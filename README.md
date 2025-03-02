@@ -109,3 +109,6 @@ Logo
 ### Design
 The design of this website was inspired by the Boardwalk Games tutorial from Code Institute. Some layout and styling solutions were adapted from the tutorial to fit the needs of this project.
 Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, but the concept of two columns on large devices and up was taken from the tutorial). The events page layout with cards and their styling was also inspired by the tutorial. The contact page, including the form code, was fully incorporated from the tutorial as it suited the project's needs.
+
+## Code
+
