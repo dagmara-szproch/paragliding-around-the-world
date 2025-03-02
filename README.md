@@ -72,9 +72,9 @@ Images were carefully selected from Pixabay https://pixabay.com/ and Pexels http
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq.
-- [Home Page](docs/balsamiq/home-page.bmpr)
-- [Events Page](docs/balsamiq/events-page.bmpr)
-- [Contact Page](docs/balsamiq/contact-page.bmpr)
+- ![Home Page Wireframe](image-1.png)
+- ![Events Page Wireframe](image.png)
+- ![Contact Page](image-2.png)
 
 ---
 
