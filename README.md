@@ -55,21 +55,21 @@ As a customer, I want to easily reserve my place on a trip or event and request 
 ---
 ### Design Choices
 
-#### Colour Scheme
+1. Colour Scheme
 The colour scheme was carefully selected using a Contrast Checker https://webaim.org/resources/contrastchecker/ to ensure accessibility and readability.
 - #003459 Prussian blue was chosen as the primary colour, as it evokes a sense of depth and stability while complementing sky-themed imagery. After browsing gradients,
 - #BDDEFF French Pass was selected for its excellent contrast ratio, creating a harmonious and visually appealing design that enhances both text and images.
 
-#### Fonts
+2. Fonts
 Google Fonts https://fonts.google.com/ was used to select the typography for the website, ensuring readability and visual appeal. 
 - Zen Dots was chosen for H1 headings, giving a modern and dynamic look.
 - Lexend, a sans-serif font with a strong readability rating, is used for body text to enhance the user experience. 
 - Roboto was selected for H2 and H3 headings, providing a clean and professional appearance while maintaining consistency across the design.
 
-#### Icons
+3. Icons
 Font Awesome https://fontawesome.com/ was used to select icons that visually reinforce their associated meanings. Each icon was carefully chosen to enhance user understanding and navigation. For example, a **map pin** icon was used for the address, as it is commonly associated with locations on maps. A **calendar icon** was selected to represent event dates, making it immediately clear and recognisable. These icons contribute to a more intuitive and user-friendly design.
 
-#### Images/Videos
+4. Images/Videos
 Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, a video file featuring the view of paragliders taking off was included to enhance the immersive experience.
 
 ---
@@ -81,7 +81,7 @@ Images were carefully selected from Pixabay https://pixabay.com/ and Pexels http
 
 ### Media
 
-#### Images
+1. Images
 Images for the carousel
 - https://www.pexels.com/photo/two-people-paragliding-together-12575878/
 - https://www.pexels.com/photo/winter-paragliding-adventure-in-the-alps-29989277/
@@ -100,10 +100,10 @@ Images for the events cards
 - https://pixabay.com/photos/fishtail-mountain-pokhara-city-5009522/
 - https://pixabay.com/photos/landscape-nature-mountains-heaven-4932848/
 
-Video
+2. Video
 - https://www.pexels.com/video/paragliders-flying-in-a-mountain-landscape-with-low-clouds-13240703/
 
-Logo
+3. Logo
 - Logo image generated using DALL·E, an AI image-generation tool by OpenAI.
 
 ### Design
@@ -173,5 +173,30 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 ### Unresolved Bugs
 1. One unresolved issue remains with the newsletter signup form. I wanted to use Bootstrap’s modal to confirm the signup, but when I implemented it, the name and email fields were no longer required. I tried changing the button’s type="submit", but this did not work. For now, I have linked the submit button to the existing success/thank-you page, which was originally intended for the contact & booking form. A potential quick fix could be creating a separate thank-you page without the navbar and footer, containing only a link back to the homepage and a confirmation message.
 
+### Testing User Stories
 
+- As a **New Customer**, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
 
+![Hero section with engaging images using carousel](image.png)
+![FAQ section answering beginner question](image-1.png)
+
+- As a **First-Time Visitor**, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
+
+![Fixed navigation bar](image-2.png)
+![mobile and tablet responsiveness](image-3.png)
+
+- As a **Potential Customer**, I want to see available courses and expeditions, so I can choose the best option for me.
+![a list of upcoming events](image-4.png)
+
+- As an **Experienced Paraglider**, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
+
+![events clearly marked as beginner, intermediate or advanced](image-5.png)
+
+- As a **Regular Customer**, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
+
+![a subscription form for newsletter](image-6.png)
+
+- As a **Customer**, I want to easily reserve my place on a trip or event and request more information about it.
+
+![contact page](image-7.png)
+![confirmation page](image-8.png)
