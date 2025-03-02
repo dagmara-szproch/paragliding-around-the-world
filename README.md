@@ -224,3 +224,13 @@ To resolve this temporarily, I linked the signup form to the existing success/th
 
 - The logo, which links to the homepage, was checked and worked as expected, redirecting correctly every time.
 - The Success/Thank You page was also tested, including the "Return to Home" button, which functioned properly.
+
+
+### Accessibility
+
+1. I used meaningful alt text for images.
+2. I implemented semantic HTML elements such as header, main, and section for better structure and navigation.
+3. I ensured that all clickable elements are proper button elements instead of div or span.
+4. I used labels for all form inputs to improve usability for screen readers.
+5. I maintained sufficient contrast between the background and content for readability.
+6. The video is keyboard-accessible, allowing users to control playback using only a keyboard.
