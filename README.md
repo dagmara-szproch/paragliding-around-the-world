@@ -114,3 +114,20 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 
 - Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
 - Code Institute tutorials: contact form from Boardwalk Games project.
+
+## Technologies Used
+
+- HTML and CSS were used as the languages.
+- https://balsamiq.com/ to create wireframes.
+- https://getbootstrap.com/ Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
+- https://fontawesome.com/ to incorporate icons.
+- https://fonts.google.com/ to import fonts.
+- https://www.birme.net/ to resize, crop, compress and change the image format to WEBP.
+- https://tinypng.com/ to compress the images.
+- https://webaim.org/resources/contrastchecker/ to check the contrast between colours.
+- https://pixabay.com/ to downland the images for the carousel and cards.
+- https://www.pexels.com/ to downland a video file and images.
+- https://favicon.io/ to create favicon.
+- https://openai.com/chatgpt/overview/ to create logo.
+- https://jigsaw.w3.org/css-validator/ to test style.css
+- https://validator.w3.org/ Markup Validation Service
