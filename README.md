@@ -135,6 +135,9 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 - Lighthouse Chrome Dev Tools for testing.
 - GitHub to store my project, project board.
 
+## Deployment
+GitHub pages was used to deploy the project.
+
 ## Testing
 
 https://validator.w3.org/ was used to validate the HTML on all pages, and https://jigsaw.w3.org/css-validator/ for style.css
