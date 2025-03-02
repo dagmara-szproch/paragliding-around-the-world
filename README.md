@@ -144,6 +144,16 @@ https://validator.w3.org/ was used to validate the HTML on all pages, and https:
 - [success.html](docs/w3w/w3c-success.png)
 - [style.css](docs/w3w/w3w-css.png)
 
+The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, accessibility, best practices and SEO.
+- [mobile-index.html](docs/lighthouse/mobile-index.png)
+- [desktop-index.html](docs/lighthouse/desktop-index.png)
+- [mobile-events.html](docs/lighthouse/mobile-events.png)
+- [desktop-events.html](docs/lighthouse/desktop-events.png)
+- [mobile-contact.html](docs/lighthouse/mobile-contact.png)
+- [desktop-contact.html](docs/lighthouse/desktop-contact.png)
+- [mobile-success.html](docs/lighthouse/mobile-success.png)
+- [desktop-success.html](docs/lighthouse/desktop-success.png)
+
 ### Bugs
  1. I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
 
