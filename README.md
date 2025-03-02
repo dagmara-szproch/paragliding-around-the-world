@@ -146,6 +146,9 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 - [mobile-success.html](docs/lighthouse/mobile-success.png)
 - [desktop-success.html](docs/lighthouse/desktop-success.png)
 
+https://validator.w3.org/ was used to ensure there are no broken internal links
+- [no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
+
 ### Bugs
  1. I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
 
