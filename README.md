@@ -71,73 +71,6 @@ Images were carefully selected from Pixabay https://pixabay.com/ and Pexels http
 
 ---
 
-## Credits
-
-### Content
-- https://openai.com/chatgpt/overview/ The content was written by me but was reviewed for spelling, grammar and consistency, and enhanced with the help of ChatGPT. Some sections were also translated and refined to improve readability. I also asked ChatGPT for FAQs about paragliding, and it provided the answers. Additionally, ChatGPT helped by providing information on the best places to paraglide and the reasons why they are ideal.
-
-### Media
-
-1. Images
-Images for the carousel
-- https://www.pexels.com/photo/two-people-paragliding-together-12575878/
-- https://www.pexels.com/photo/winter-paragliding-adventure-in-the-alps-29989277/
-- https://pixabay.com/photos/paragliding-paraglider-4493110/
-- https://pixabay.com/photos/paraglider-nostalgia-flying-1306371/
-- https://www.pexels.com/photo/person-paragliding-above-the-fields-15737001/
-- https://www.pexels.com/photo/parachuters-on-the-grass-field-13623041/
-- https://pixabay.com/photos/paramotor-flight-paragliding-flying-5335016/
-
-Images for the events cards
-- https://www.pexels.com/photo/people-paragliding-in-mountain-valley-6149892/
-- https://www.pexels.com/photo/people-using-parachute-5322131/
-- https://pixabay.com/photos/mountain-semnoz-annecy-landscape-4692933/
-- https://pixabay.com/photos/bariloche-argentina-patagonia-lake-7286017/
-- https://pixabay.com/photos/owens-valley-california-sierra-4945130/
-- https://pixabay.com/photos/fishtail-mountain-pokhara-city-5009522/
-- https://pixabay.com/photos/landscape-nature-mountains-heaven-4932848/
-
-2. Video
-- https://www.pexels.com/video/paragliders-flying-in-a-mountain-landscape-with-low-clouds-13240703/
-
-3. Logo
-- Logo image generated using DALL·E, an AI image-generation tool by OpenAI.
-
-### Design
-The design of this website was inspired by the Boardwalk Games tutorial from Code Institute. Some layout and styling solutions were adapted from the tutorial to fit the needs of this project.
-Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, but the concept of two columns on large devices and up was taken from the tutorial). The events page layout with cards and their styling was also inspired by the tutorial. The contact page, including the form code, was fully incorporated from the tutorial as it suited the project's needs.
-
----
-
-## Code
-
-- Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
-- Code Institute tutorials: contact form from Boardwalk Games project.
-
----
-
-## Technologies Used
-
-- HTML and CSS were used as the languages.
-- https://balsamiq.com/ to create wireframes.
-- https://getbootstrap.com/ Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
-- https://fontawesome.com/ to incorporate icons.
-- https://fonts.google.com/ to import fonts.
-- https://www.birme.net/ to resize, crop, compress and change the image format to WEBP.
-- https://tinypng.com/ to compress the images.
-- https://www.freeconvert.com/video-compressor video compressor.
-- https://webaim.org/resources/contrastchecker/ to check the contrast between colours.
-- https://pixabay.com/ to downland the images for the carousel and cards.
-- https://www.pexels.com/ to downland a video file and images.
-- https://favicon.io/ to create favicon.
-- https://openai.com/chatgpt/overview/ to create logo.
-- https://jigsaw.w3.org/css-validator/ to test style.css
-- https://validator.w3.org/ Markup Validation Service
-- Lighthouse Chrome Dev Tools for testing.
-- GitHub to store my project, project board.
-
----
-
 ## Features
 
 The website consists of four pages, three of which are accessible from the navigation bar. All pages share the same navbar and footer.
@@ -165,26 +98,34 @@ The final page displays a thank-you note and confirmation that the request has b
 
 ---
 
-## Deployment
-The website was deployed using GitHub Pages, which provides a simple way to host static websites directly from a GitHub repository. Below are the steps taken to deploy the project:
+## Technologies Used
 
-1. Repository Setup
-- The project files were uploaded to a GitHub repository.
-- The main branch was used for deployment.
+- HTML and CSS were used as the languages.
+- https://balsamiq.com/ to create wireframes.
+- https://getbootstrap.com/ Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
+- https://fontawesome.com/ to incorporate icons.
+- https://fonts.google.com/ to import fonts.
+- https://www.birme.net/ to resize, crop, compress and change the image format to WEBP.
+- https://tinypng.com/ to compress the images.
+- https://www.freeconvert.com/video-compressor video compressor.
+- https://webaim.org/resources/contrastchecker/ to check the contrast between colours.
+- https://pixabay.com/ to downland the images for the carousel and cards.
+- https://www.pexels.com/ to downland a video file and images.
+- https://favicon.io/ to create favicon.
+- https://openai.com/chatgpt/overview/ to create logo.
+- https://jigsaw.w3.org/css-validator/ to test style.css
+- https://validator.w3.org/ Markup Validation Service
+- Lighthouse Chrome Dev Tools for testing.
+- GitHub to store my project, project board.
 
-2. Enabling GitHub Pages
-- In the repository settings, GitHub Pages was enabled.
-- The source branch was set to main.
-- The deployment was configured to serve files from the root directory.
-3. Accessing the Live Website
-- Once the deployment process was completed, the website became accessible at the provided GitHub Pages URL.
-- The link to the deployed site: https://dagmara-szproch.github.io/paragliding-around-the-world/
+---
 
-4. Updating the Website
-- Any changes pushed to the main branch automatically update the live website.
-- Regular updates are made using Git commits and pushes.
+## Code
 
---
+- Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
+- Code Institute tutorials: contact form from Boardwalk Games project.
+
+---
 
 ## Testing
 
@@ -249,7 +190,6 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 ![contact page](docs/image-7.png)
 ![confirmation page](docs/image-8.png)
 
-
 ### Manual Testing
 
 Manual testing was performed on two different browsers—Chrome and Microsoft Edge — on both a laptop with a large screen and a mobile phone (Android) using Chrome.
@@ -273,7 +213,6 @@ To resolve this temporarily, I linked the signup form to the existing success/th
 - The logo, which links to the homepage, was checked and worked as expected, redirecting correctly every time.
 - The Success/Thank You page was also tested, including the "Return to Home" button, which functioned properly.
 
-
 ### Accessibility
 
 1. I used meaningful alt text for images.
@@ -282,3 +221,66 @@ To resolve this temporarily, I linked the signup form to the existing success/th
 4. I used labels for all form inputs to improve usability for screen readers.
 5. I maintained sufficient contrast between the background and content for readability.
 6. The video is keyboard-accessible, allowing users to control playback using only a keyboard.
+
+---
+
+## Deployment
+
+The website was deployed using GitHub Pages, which provides a simple way to host static websites directly from a GitHub repository. Below are the steps taken to deploy the project:
+
+1. Repository Setup
+- The project files were uploaded to a GitHub repository.
+- The main branch was used for deployment.
+
+2. Enabling GitHub Pages
+- In the repository settings, GitHub Pages was enabled.
+- The source branch was set to main.
+- The deployment was configured to serve files from the root directory.
+3. Accessing the Live Website
+- Once the deployment process was completed, the website became accessible at the provided GitHub Pages URL.
+- The link to the deployed site: https://dagmara-szproch.github.io/paragliding-around-the-world/
+
+4. Updating the Website
+- Any changes pushed to the main branch automatically update the live website.
+- Regular updates are made using Git commits and pushes.
+
+--
+
+## Credits
+
+### Content
+- https://openai.com/chatgpt/overview/ The content was written by me but was reviewed for spelling, grammar and consistency, and enhanced with the help of ChatGPT. Some sections were also translated and refined to improve readability. I also asked ChatGPT for FAQs about paragliding, and it provided the answers. Additionally, ChatGPT helped by providing information on the best places to paraglide and the reasons why they are ideal.
+
+### Media
+
+1. Images
+Images for the carousel
+- https://www.pexels.com/photo/two-people-paragliding-together-12575878/
+- https://www.pexels.com/photo/winter-paragliding-adventure-in-the-alps-29989277/
+- https://pixabay.com/photos/paragliding-paraglider-4493110/
+- https://pixabay.com/photos/paraglider-nostalgia-flying-1306371/
+- https://www.pexels.com/photo/person-paragliding-above-the-fields-15737001/
+- https://www.pexels.com/photo/parachuters-on-the-grass-field-13623041/
+- https://pixabay.com/photos/paramotor-flight-paragliding-flying-5335016/
+
+Images for the events cards
+- https://www.pexels.com/photo/people-paragliding-in-mountain-valley-6149892/
+- https://www.pexels.com/photo/people-using-parachute-5322131/
+- https://pixabay.com/photos/mountain-semnoz-annecy-landscape-4692933/
+- https://pixabay.com/photos/bariloche-argentina-patagonia-lake-7286017/
+- https://pixabay.com/photos/owens-valley-california-sierra-4945130/
+- https://pixabay.com/photos/fishtail-mountain-pokhara-city-5009522/
+- https://pixabay.com/photos/landscape-nature-mountains-heaven-4932848/
+
+2. Video
+- https://www.pexels.com/video/paragliders-flying-in-a-mountain-landscape-with-low-clouds-13240703/
+
+3. Logo
+- Logo image generated using DALL·E, an AI image-generation tool by OpenAI.
+
+### Design
+The design of this website was inspired by the Boardwalk Games tutorial from Code Institute. Some layout and styling solutions were adapted from the tutorial to fit the needs of this project.
+Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, but the concept of two columns on large devices and up was taken from the tutorial). The events page layout with cards and their styling was also inspired by the tutorial. The contact page, including the form code, was fully incorporated from the tutorial as it suited the project's needs.
+
+---
+
