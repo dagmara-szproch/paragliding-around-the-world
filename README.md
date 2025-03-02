@@ -246,6 +246,31 @@ The website was deployed using GitHub Pages, which provides a simple way to host
 
 --
 
+## Maintaince & Updates
+Ongoing maintenance and updates are essential to ensure the website remains functional, informative, and user-friendly. Below are planned improvements and updates for the project:
+
+1. Enhanced Trip Descriptions
+- Add detailed itineraries for each trip, outlining daily activities (e.g., Day 1: Arrival & briefing, Day 2: Training sessions, Day 3: Adventure flight, etc.).
+- Provide more details about included services such as accommodation, meals, and transport.
+
+2. Accommodation & Travel Information
+- Add descriptions of accommodation options, including photos and amenities.
+- Provide guidance on travel arrangements, nearest airports, and transport to the paragliding site.
+
+3. Improved Newsletter Sign-up Process
+- Enhance the newsletter form to allow users to select their interests (e.g., Beginner training, Adventure trips, Special offers).
+- Fix the issue where required fields are bypassed when using Bootstrap modals.
+- Possibly integrate an email confirmation step for better user engagement.
+
+4. Trip Updates & Seasonal Offers
+- Regularly update the trips section with new destinations and availability.
+- Add a section for limited-time offers, last-minute deals, or early-bird discounts.
+
+5. Performance & Accessibility Improvements
+- Optimise images and videos for faster loading times.
+- Ensure all new content meets accessibility standards (e.g., alt text, keyboard navigation).
+
+
 ## Credits
 
 ### Content
