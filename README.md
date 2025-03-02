@@ -12,8 +12,6 @@ The primary objective of the website is to **attract more clients** by:
 3. Offering a **seamless booking process** for courses and events.
 4. Displaying **real customer experiences** through reviews and images.
 
----
-
 ### User Personas
 1. Absolute Beginner
 - Someone who has never tried paragliding and wants to learn more about it.
@@ -27,7 +25,6 @@ The primary objective of the website is to **attract more clients** by:
 - Someone who has done basic paragliding locally but is now seeking thrilling new experiences.
 - They want exciting international events with stunning scenic views.
 
----
 ### User Stories
 
 1. User Story (must-have)
@@ -52,7 +49,7 @@ As a Regular Customer, I want to sign up for a newsletter and updates, so I can 
 As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
 - [View Full User Stories, including acceptance criteria and tasks](docs/user-stories.txt)
----
+
 ### Design Choices
 
 1. Colour Scheme
@@ -110,10 +107,14 @@ Images for the events cards
 The design of this website was inspired by the Boardwalk Games tutorial from Code Institute. Some layout and styling solutions were adapted from the tutorial to fit the needs of this project.
 Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, but the concept of two columns on large devices and up was taken from the tutorial). The events page layout with cards and their styling was also inspired by the tutorial. The contact page, including the form code, was fully incorporated from the tutorial as it suited the project's needs.
 
+---
+
 ## Code
 
 - Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
 - Code Institute tutorials: contact form from Boardwalk Games project.
+
+---
 
 ## Technologies Used
 
@@ -135,7 +136,10 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 - Lighthouse Chrome Dev Tools for testing.
 - GitHub to store my project, project board.
 
+---
+
 ## Features
+
 The website consists of four pages, three of which are accessible from the navigation bar. All pages share the same navbar and footer.
 
 - The navbar includes a logo positioned on the left, which also serves as a link to the homepage. On the right side, there is a menu with links to Home and Events 2025, as well as a button-link leading to the Contact & Booking page. This button is visually distinct from the other navigation items with a different colour. The navbar expands on large devices, while on smaller screens, it appears as a burger menu icon. The navbar is also fixed to the top of the page.
@@ -159,8 +163,28 @@ Below the form, there is a button-link leading to the final page, which is not a
 - Confirmation / Thank You Page
 The final page displays a thank-you note and confirmation that the request has been received. Below the message, there is a button to return to the homepage.
 
+---
+
 ## Deployment
-GitHub pages was used to deploy the project.
+The website was deployed using GitHub Pages, which provides a simple way to host static websites directly from a GitHub repository. Below are the steps taken to deploy the project:
+
+1. Repository Setup
+- The project files were uploaded to a GitHub repository.
+- The main branch was used for deployment.
+
+2. Enabling GitHub Pages
+- In the repository settings, GitHub Pages was enabled.
+- The source branch was set to main.
+- The deployment was configured to serve files from the root directory.
+3. Accessing the Live Website
+- Once the deployment process was completed, the website became accessible at the provided GitHub Pages URL.
+- The link to the deployed site: https://dagmara-szproch.github.io/paragliding-around-the-world/
+
+4. Updating the Website
+- Any changes pushed to the main branch automatically update the live website.
+- Regular updates are made using Git commits and pushes.
+
+--
 
 ## Testing
 
