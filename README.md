@@ -69,6 +69,13 @@ Font Awesome https://fontawesome.com/ was used to select icons that visually rei
 4. Images/Videos
 Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, a video file featuring the view of paragliders taking off was included to enhance the immersive experience.
 
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop using Balsamiq.
+- [Home Page](docs/balsamiq/home-page.bmpr)
+- [Events Page](docs/balsamiq/events-page.bmpr)
+- [Contact Page](docs/balsamiq/contact-page.bmpr)
+
 ---
 
 ## Features
