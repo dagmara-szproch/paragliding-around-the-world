@@ -1,3 +1,4 @@
+/* Credits: Most of the code comes from Code Institute tutorials, which I followed and repeated throughout the project development. */
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
 
@@ -103,7 +104,7 @@ hr {
     color: white;
 }
 
-/* Media  queries */
+/* Credits Code institute tutorial; Media  queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
