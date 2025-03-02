@@ -112,3 +112,5 @@ Bootstrap navbar, a header with a Bootstrap carousel (I used a different one, bu
 
 ## Code
 
+- Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
+- Code Institute tutorials: contact form from Boardwalk Games project.
