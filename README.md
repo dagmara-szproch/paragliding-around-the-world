@@ -3,7 +3,7 @@
 ## UX (User Experience)
 
 ### Project Goals
-**Paraglobe** is a fictitious client—a paragliding company that not only provides training for new enthusiasts but also specialises in organising training sessions and adventure expeditions around the world. As a member, you can learn to paraglide in breathtaking locations with guaranteed favourable weather conditions.
+**Paraglobe** is a fictitious client — a paragliding company that not only provides training for new enthusiasts but also specialises in organising training sessions and adventure expeditions around the world. As a member, you can learn to paraglide in breathtaking locations with guaranteed favourable weather conditions.
 
 ### Business Goals
 The primary objective of the website is to **attract more clients** by:
@@ -27,26 +27,33 @@ The primary objective of the website is to **attract more clients** by:
 
 ### User Stories
 
-1. User Story (must-have)
-As a new customer, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
+1. User Story (must-have):
 
-2. User Story (must-have)
-As a First-Time Visitor, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
+    As a new customer, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
 
-3. User Story (must-have)
-As a Potential Customer, I want to see available courses and expeditions, so I can choose the best option for me.
+2. User Story (must-have):
 
-4. User Story (could-have)
-As an experienced paraglider, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
+    As a First-Time Visitor, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
 
-5. User Story (could-have)
-As  a Potential Customer, I want to see real customer reviews and photos, so I can better understand the experience.
+3. User Story (must-have):
 
-6. User Story (should-have)
-As a Regular Customer, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
+    As a Potential Customer, I want to see available courses and expeditions, so I can choose the best option for me.
 
-7. User Story (must-have)
-As a customer, I want to easily reserve my place on a trip or event and request more information about it.
+4. User Story (could-have):
+
+    As an experienced paraglider, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
+
+5. User Story (could-have):
+
+    As  a Potential Customer, I want to see real customer reviews and photos, so I can better understand the experience.
+
+6. User Story (should-have):
+
+    As a Regular Customer, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
+
+7. User Story (must-have):
+
+    As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
 - [View Full User Stories, including acceptance criteria and tasks](docs/user-stories.txt)
 
@@ -87,21 +94,25 @@ The website consists of four pages, three of which are accessible from the navig
 - The footer contains basic contact information, including the address and email address. On the right side, there are four social media links, while on the left, there is a sign-up form for the newsletter.
 
 - Home Page
-The homepage features a header with a call-to-action (CTA) text, encouraging users to join an expedition, along with a CTA button linking to the booking page. Within the same container, on the right side, there is a Bootstrap carousel displaying images. Below the header, there is an FAQ section, implemented using the Bootstrap accordion.
+
+    The homepage features a header with a call-to-action (CTA) text, encouraging users to join an expedition, along with a CTA button linking to the booking page. Within the same container, on the right side, there is a Bootstrap carousel displaying images. Below the header, there is an FAQ section, implemented using the Bootstrap accordion.
 
 - Events Page
-This page also includes a header beneath the navbar, similar in layout to the homepage. It contains CTA text encouraging participation (with different content than on the homepage) and a CTA button linking to the Contact & Booking page. On the right side, there is a muted, autoplaying video, with buttons allowing users to control navigation.
 
-- Below the header, there is a section showcasing upcoming trips, using Bootstrap cards. Each card consists of: An image / The destination name / A short description / The date / The difficulty level / The price
-Below the event cards, there is a button leading to the Contact & Booking page.
+    This page also includes a header beneath the navbar, similar in layout to the homepage. It contains CTA text encouraging participation (with different content than on the homepage) and a CTA button linking to the Contact & Booking page. On the right side, there is a muted, autoplaying video, with buttons allowing users to control navigation.
+
+    Below the header, there is a section showcasing upcoming trips, using Bootstrap cards. Each card consists of: An image / The destination name / A short description / The date / The difficulty level / The price
+    Below the event cards, there is a button leading to the Contact & Booking page.
 
 - Contact Page
-This page contains a Bootstrap form with the following required fields:
-Name, Email (must include @ symbol), Phone number (only numerical values allowed), Dropdown menu with selectable trip options (eight trips to choose from) , Text box.
-Below the form, there is a button-link leading to the final page, which is not accessible from the navbar.
+
+    This page contains a Bootstrap form with the following required fields:
+    Name, Email (must include @ symbol), Phone number (only numerical values allowed), Dropdown menu with selectable trip options (eight trips to choose from) , Text box.
+    Below the form, there is a button-link leading to the final page, which is not accessible from the navbar.
 
 - Confirmation / Thank You Page
-The final page displays a thank-you note and confirmation that the request has been received. Below the message, there is a button to return to the homepage.
+
+    The final page displays a thank-you note and confirmation that the request has been received. Below the message, there is a button to return to the homepage.
 
 ---
 
@@ -136,14 +147,14 @@ The final page displays a thank-you note and confirmation that the request has b
 
 ## Testing
 
-https://validator.w3.org/ was used to validate the HTML on all pages, and https://jigsaw.w3.org/css-validator/ for style.css
+[validator w3](https://validator.w3.org/) was used to validate the HTML on all pages, and [jigsaw.w3](https://jigsaw.w3.org/css-validator/) for style.css
 - [index.html ](docs/w3w/w3c-index.png)
 - [events.html](docs/w3w/w3c-events.png)
 - [contact.html](docs/w3w/w3c-contact.png)
 - [success.html](docs/w3w/w3c-success.png)
 - [style.css](docs/w3w/w3w-css.png)
 
-The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, accessibility, best practices and SEO.
+The final Lighthouse (Chrome Dev Tools) testing to check the performance, accessibility, best practices and SEO.
 - [mobile-index.html](docs/lighthouse/mobile-index.png)
 - [desktop-index.html](docs/lighthouse/desktop-index.png)
 - [mobile-events.html](docs/lighthouse/mobile-events.png)
@@ -153,17 +164,18 @@ The final Lighthouse (Chrome Dev Tools) testing to check th eperformance, access
 - [mobile-success.html](docs/lighthouse/mobile-success.png)
 - [desktop-success.html](docs/lighthouse/desktop-success.png)
 
-https://validator.w3.org/ was used to ensure there are no broken internal links
+
+[validator.w3](https://validator.w3.org/) was used to ensure there are no broken internal links
 - [no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
 
 ### Bugs
- 1. I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
+ 1. [validator w3](https://validator.w3.org/) - I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
 
 2. The second bug I discovered was also through W3C validation. It turned out that I had used the same id="name" and id="email" for both the contact form and the newsletter signup form. This issue only became visible on the contact page because both forms appeared there. To resolve it, I changed the id and name attributes in the contact form to name-contact and email-contact. This fixed the issue.
 
 3. A common problem I encountered was unexpected changes on the page—elements disappearing or moving unexpectedly. These were usually caused by accidental edits when my cursor was in the wrong place. I learned to use Ctrl + Z to undo and Ctrl + Y to redo changes, which helped resolve such issues efficiently.
 
-4. Another problem I encountered was with accessibility. When I ran Lighthouse in Chrome DevTools, it showed an accessibility score of 95%. The issue was related to poor contrast between text and background colors. To fix this, I adjusted the colors to improve readability.
+4. Another problem I encountered was with accessibility. When I ran Lighthouse in Chrome DevTools, it showed an accessibility score of 95%. The issue was related to poor contrast between text and background colours. To fix this, I adjusted the colours to improve readability.
 
 5. Lighthouse also flagged another accessibility issue: my buttons were too small. The recommended minimum size is 24px, and I wasn’t fully satisfied with the buttons in the navbar. Taking this into account, I set the nav-items and all buttons to 1.25rem. While they might appear large to some, I believe they are now more accessible, particularly for users with vision impairments.
 
@@ -189,7 +201,7 @@ https://validator.w3.org/ was used to ensure there are no broken internal links
 
 - As an **Experienced Paraglider**, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
 
-![events clearly marked as beginner, intermediate or advanced](docs/lighthouse/image-5.png)
+![events clearly marked as beginner, intermediate or advanced](docs/test-user-stories//image-5.png)
 
 - As a **Regular Customer**, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
 
@@ -212,10 +224,8 @@ I also tested the Contact & Booking form:
 I tested each required field individually by leaving one empty at a time, and the form consistently displayed the appropriate validation message.
 The Select options worked as expected, preventing submission if "Select an option" was chosen. Users were required to select an event/trip to proceed.
 
-3. The Newsletter Signup form revealed some issues:
-
-Initially, both fields worked as expected, preventing submission without filling them in.
-However, after adding a modal confirmation button, the required fields no longer worked properly — the modal appeared without any validation.
+3. The Newsletter Signup form revealed some issues. Initially, both fields worked as expected, preventing submission without filling them in. 
+However, after adding a modal confirmation button, the required fields no longer worked properly — the modal appeared without any validation. 
 To resolve this temporarily, I linked the signup form to the existing success/thank-you page, which now functions correctly.
 
 4. Other tested elements:
@@ -289,7 +299,8 @@ Ongoing maintenance and updates are essential to ensure the website remains func
 ### Media
 
 1. Images
-Images for the carousel
+
+    Images for the carousel
 - https://www.pexels.com/photo/two-people-paragliding-together-12575878/
 - https://www.pexels.com/photo/winter-paragliding-adventure-in-the-alps-29989277/
 - https://pixabay.com/photos/paragliding-paraglider-4493110/
@@ -298,7 +309,7 @@ Images for the carousel
 - https://www.pexels.com/photo/parachuters-on-the-grass-field-13623041/
 - https://pixabay.com/photos/paramotor-flight-paragliding-flying-5335016/
 
-Images for the events cards
+    Images for the events cards
 - https://www.pexels.com/photo/people-paragliding-in-mountain-valley-6149892/
 - https://www.pexels.com/photo/people-using-parachute-5322131/
 - https://pixabay.com/photos/mountain-semnoz-annecy-landscape-4692933/
