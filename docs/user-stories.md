@@ -1,6 +1,8 @@
 ### User Stories
 
-1. User Story (must-have)
+---
+
+### User Story 1 (must-have)
 As a new customer, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
 
 **Acceptance Criteria**
@@ -13,7 +15,9 @@ As a new customer, I want to quickly understand what paragliding is and see stun
 - Add a Why Choose Us section explaining the company's expertise.
 - Include an FAQ section addressing common beginner queries.
 
-2. User Story (must-have)
+---
+
+### User Story 2 (must-have)
 As a First-Time Visitor, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
 
 **Acceptance Criteria**
@@ -25,7 +29,9 @@ As a First-Time Visitor, I need easy navigation and a user-friendly design, so I
 - Arrange the navigation based on best UX/UI practices.
 - Ensure mobile and tablet responsiveness across all pages.
 
-3. User Story (must-have)
+---
+
+### User Story 3 (must-have)
 As a Potential Customer, I want to see available courses and expeditions, so I can choose the best option for me.
 
 **Acceptance Criteria**
@@ -38,7 +44,9 @@ As a Potential Customer, I want to see available courses and expeditions, so I c
 - Use Bootstrap cards to display images, titles, description and cost.
 - Customise the styling to avoid an overly generic Bootstrap look.
 
-4. User Story (could-have)
+---
+
+### User Story 4 (could-have)
 As an experienced paraglider, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
 
 **Acceptance Criteria**
@@ -49,7 +57,9 @@ As an experienced paraglider, I want to find events suited to my skill level, so
 - Categorise all events based on difficulty level.
 - Add checkboxes in the newsletter signup form for users to subscribe to beginner, advanced or other relevant categories.
 
-5. User Story (could-have)
+---
+
+### User Story 5 (could-have)
 As  a Potential Customer, I want to see real customer reviews and photos, so I can better understand the experience.
 
 **Acceptance Criteria**
@@ -59,7 +69,9 @@ As  a Potential Customer, I want to see real customer reviews and photos, so I c
 **Tasks**
 - Add section for customers testimonials.
 
-6. User Story (should-have)
+---
+
+### User Story 6 (should-have)
 As a Regular Customer, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
 
 **Acceptance Criteria**
@@ -70,7 +82,9 @@ As a Regular Customer, I want to sign up for a newsletter and updates, so I can 
 - Create a Newsletter Signup form in the footer.
 - Optionally, add a sign up button to open a modal form.
 
-7. User Story (must-have)
+---
+
+### User Story 7 (must-have)
 As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
 **Acceptance Criteria:**
