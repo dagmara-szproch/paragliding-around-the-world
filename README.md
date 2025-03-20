@@ -55,33 +55,41 @@ The primary objective of the website is to **attract more clients** by:
 
     As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
-- [View Full User Stories, including acceptance criteria and tasks](docs/user-stories.txt)
+
+**[View Full User Stories, including acceptance criteria and tasks](docs/user-stories.md)**
 
 ### Design Choices
 
-1. Colour Scheme
-The colour scheme was carefully selected using a Contrast Checker https://webaim.org/resources/contrastchecker/ to ensure accessibility and readability.
+**Colour Scheme**
+
+The colour scheme was carefully selected using a [Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure accessibility and readability.
 - #003459 Prussian blue was chosen as the primary colour, as it evokes a sense of depth and stability while complementing sky-themed imagery. After browsing gradients,
 - #BDDEFF French Pass was selected for its excellent contrast ratio, creating a harmonious and visually appealing design that enhances both text and images.
 
-2. Fonts
-Google Fonts https://fonts.google.com/ was used to select the typography for the website, ensuring readability and visual appeal. 
+**Fonts**
+
+[Google Fonts](https://fonts.google.com/) was used to select the typography for the website, ensuring readability and visual appeal. 
 - Zen Dots was chosen for H1 headings, giving a modern and dynamic look.
 - Lexend, a sans-serif font with a strong readability rating, is used for body text to enhance the user experience. 
 - Roboto was selected for H2 and H3 headings, providing a clean and professional appearance while maintaining consistency across the design.
 
-3. Icons
-Font Awesome https://fontawesome.com/ was used to select icons that visually reinforce their associated meanings. Each icon was carefully chosen to enhance user understanding and navigation. For example, a **map pin** icon was used for the address, as it is commonly associated with locations on maps. A **calendar icon** was selected to represent event dates, making it immediately clear and recognisable. These icons contribute to a more intuitive and user-friendly design.
+**Icons**
 
-4. Images/Videos
-Images were carefully selected from Pixabay https://pixabay.com/ and Pexels https://www.pexels.com/ ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, a video file featuring the view of paragliders taking off was included to enhance the immersive experience.
+[Font Awesome](https://fontawesome.com/) was used to select icons that visually reinforce their associated meanings. Each icon was carefully chosen to enhance user understanding and navigation. For example, a *map pin* icon was used for the address, as it is commonly associated with locations on maps. A *calendar icon* was selected to represent event dates, making it immediately clear and recognisable. These icons contribute to a more intuitive and user-friendly design.
+
+**Images/Videos**
+
+Images were carefully selected from [Pixabay](https://pixabay.com/) and [Pexels](https://www.pexels.com/) ensuring they were free to use and relevant to the theme. The chosen images showcase paragliders in action — some soaring through the sky, while others are preparing for takeoff. For event cards, breathtaking landscape images were selected to highlight the stunning locations participants can experience on our expeditions. Additionally, a video file featuring the view of paragliders taking off was included to enhance the immersive experience.
 
 ### Wireframes
 
 Wireframes were created for mobile, tablet and desktop using Balsamiq.
-- ![Home Page Wireframe](docs/balsamiq/image-1.png)
-- ![Events Page Wireframe](docs/balsamiq/image.png)
-- ![Contact Page](docs/balsamiq/image-2.png)
+
+- **Home Page wireframe** ![Home Page Wireframe](docs/balsamiq/image-1.png)
+
+- **Events Page wireframe** ![Events Page Wireframe](docs/balsamiq/image.png)
+
+- **Contact Page wireframe** ![Contact Page](docs/balsamiq/image-2.png)
 
 ---
 
@@ -119,22 +127,22 @@ The website consists of four pages, three of which are accessible from the navig
 ## Technologies Used
 
 - HTML and CSS were used as the languages.
-- https://balsamiq.com/ to create wireframes.
-- https://getbootstrap.com/ Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
-- https://fontawesome.com/ to incorporate icons.
-- https://fonts.google.com/ to import fonts.
-- https://www.birme.net/ to resize, crop, compress and change the image format to WEBP.
-- https://tinypng.com/ to compress the images.
-- https://www.freeconvert.com/video-compressor video compressor.
-- https://webaim.org/resources/contrastchecker/ to check the contrast between colours.
-- https://pixabay.com/ to downland the images for the carousel and cards.
-- https://www.pexels.com/ to downland a video file and images.
-- https://favicon.io/ to create favicon.
-- https://openai.com/chatgpt/overview/ to create logo.
-- https://jigsaw.w3.org/css-validator/ to test style.css
-- https://validator.w3.org/ Markup Validation Service
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+- [Bootstrap 5.3.x](https://getbootstrap.com/) was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
+- [Font Awesome](https://fontawesome.com/) to incorporate icons.
+- [Google Fonts](https://fonts.google.com/) to import fonts.
+- [Birme](https://www.birme.net/) to resize, crop, compress and change the image format to WEBP.
+- [Tiny PGN](https://tinypng.com/) to compress the images.
+- [Freeconvert](https://www.freeconvert.com/video-compressor) video compressor.
+- [Contrast Checker](https://webaim.org/resources/contrastchecker/) to check the contrast between colours.
+- [Pixabay](https://pixabay.com/) to downland the images for the carousel and cards.
+- [Pexels](https://www.pexels.com/) to downland a video file and images.
+- [Favicon](https://favicon.io/) to create favicon.
+- [Open AI](https://openai.com/chatgpt/overview/) to create logo.
+- [CSS Validator](https://jigsaw.w3.org/css-validator/) to test style.css
+- [HTML Validator](https://validator.w3.org/) Markup Validation Service
 - Lighthouse Chrome Dev Tools for testing.
-- GitHub to store my project, project board.
+- [GitHub](https://github.com/) to store my project, project board.
 
 ---
 
