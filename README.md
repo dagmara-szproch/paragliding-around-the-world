@@ -1,6 +1,30 @@
 # paragliding-around-the-world
 
-## UX (User Experience)
+# Table of Contents
+- [User Experience](#user-experience)
+    - [Project Goals](#project-goals)
+    - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
+    - [Design Choices](#design-choices)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Code](#code)
+- [Testing](#testing)
+    - [Bugs](#bugs)
+    - [Unresolved Bugs](#unresolved-bugs)
+    - [Tesing User Stories](#testing-user-stories)
+    - [Manual Testing](#manual-testing)
+    - [Automated Testing](#automated-testing)
+    - [Accessibility](#accessibility)
+- [Deployment](#deployment)
+- [Maintenance & Updates](#maintenance--updates)
+- [Credits](#credits)
+
+
+
+
+## User Experience
 
 ### Project Goals
 **Paraglobe** is a fictitious client — a paragliding company that not only provides training for new enthusiasts but also specialises in organising training sessions and adventure expeditions around the world. As a member, you can learn to paraglide in breathtaking locations with guaranteed favourable weather conditions.
@@ -56,7 +80,9 @@ The primary objective of the website is to **attract more clients** by:
     As a customer, I want to easily reserve my place on a trip or event and request more information about it.
 
 
-**[View Full User Stories, including acceptance criteria and tasks](docs/user-stories.md)**
+[View Full User Stories, including acceptance criteria and tasks](docs/user-stories.md)
+
+The project's Kanban Board can be viewed [here](https://github.com/users/dagmara-szproch/projects/1)
 
 ### Design Choices
 
@@ -65,6 +91,12 @@ The primary objective of the website is to **attract more clients** by:
 The colour scheme was carefully selected using a [Contrast Checker](https://webaim.org/resources/contrastchecker/) to ensure accessibility and readability.
 - #003459 Prussian blue was chosen as the primary colour, as it evokes a sense of depth and stability while complementing sky-themed imagery. After browsing gradients,
 - #BDDEFF French Pass was selected for its excellent contrast ratio, creating a harmonious and visually appealing design that enhances both text and images.
+
+    <details> 
+    <summary>Click here to see the Colour Palette</summary>
+    <img src="docs/paraglobe-colour-palette.png" width="300" alt="Colour Palette">
+    </details>
+
 
 **Fonts**
 
@@ -155,29 +187,8 @@ The website consists of four pages, three of which are accessible from the navig
 
 ## Testing
 
-[validator w3](https://validator.w3.org/) was used to validate the HTML on all pages, and [jigsaw.w3](https://jigsaw.w3.org/css-validator/) for style.css
-- [index.html ](docs/w3w/w3c-index.png)
-- [events.html](docs/w3w/w3c-events.png)
-- [contact.html](docs/w3w/w3c-contact.png)
-- [success.html](docs/w3w/w3c-success.png)
-- [style.css](docs/w3w/w3w-css.png)
-
-The final Lighthouse (Chrome Dev Tools) testing to check the performance, accessibility, best practices and SEO.
-- [mobile-index.html](docs/lighthouse/mobile-index.png)
-- [desktop-index.html](docs/lighthouse/desktop-index.png)
-- [mobile-events.html](docs/lighthouse/mobile-events.png)
-- [desktop-events.html](docs/lighthouse/desktop-events.png)
-- [mobile-contact.html](docs/lighthouse/mobile-contact.png)
-- [desktop-contact.html](docs/lighthouse/desktop-contact.png)
-- [mobile-success.html](docs/lighthouse/mobile-success.png)
-- [desktop-success.html](docs/lighthouse/desktop-success.png)
-
-
-[validator.w3](https://validator.w3.org/) was used to ensure there are no broken internal links
-- [no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
-
 ### Bugs
- 1. [validator w3](https://validator.w3.org/) - I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
+ 1. [validator W3](https://validator.w3.org/) - I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
 
 2. The second bug I discovered was also through W3C validation. It turned out that I had used the same id="name" and id="email" for both the contact form and the newsletter signup form. This issue only became visible on the contact page because both forms appeared there. To resolve it, I changed the id and name attributes in the contact form to name-contact and email-contact. This fixed the issue.
 
@@ -240,6 +251,29 @@ To resolve this temporarily, I linked the signup form to the existing success/th
 
 - The logo, which links to the homepage, was checked and worked as expected, redirecting correctly every time.
 - The Success/Thank You page was also tested, including the "Return to Home" button, which functioned properly.
+
+### Automated Testing
+
+[validator w3](https://validator.w3.org/) was used to validate the HTML on all pages, and [jigsaw.w3](https://jigsaw.w3.org/css-validator/) for style.css and the code passed with no errors or warnings to show.
+- index.html page <img src="docs/w3w/w3c-index.png" width="200" alt="index.html validation">
+- events.html page <img src="docs/w3w/w3c-events.png" width="200" alt="events.html page validation">
+- [contact.html](docs/w3w/w3c-contact.png)
+- [success.html](docs/w3w/w3c-success.png)
+- [style.css](docs/w3w/w3w-css.png)
+
+The final Lighthouse (Chrome Dev Tools) testing to check the performance, accessibility, best practices and SEO.
+- [mobile-index.html](docs/lighthouse/mobile-index.png)
+- [desktop-index.html](docs/lighthouse/desktop-index.png)
+- [mobile-events.html](docs/lighthouse/mobile-events.png)
+- [desktop-events.html](docs/lighthouse/desktop-events.png)
+- [mobile-contact.html](docs/lighthouse/mobile-contact.png)
+- [desktop-contact.html](docs/lighthouse/desktop-contact.png)
+- [mobile-success.html](docs/lighthouse/mobile-success.png)
+- [desktop-success.html](docs/lighthouse/desktop-success.png)
+
+
+[validator.w3](https://validator.w3.org/) was used to ensure there are no broken internal links
+- [no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
 
 ### Accessibility
 
