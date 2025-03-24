@@ -1,4 +1,11 @@
 # paragliding-around-the-world
+![Am I Responsive](assets/images/am-i-responsive.png)
+
+---
+
+[View the Live Project here](https://dagmara-szproch.github.io/paragliding-around-the-world/)
+
+---
 
 # Table of Contents
 - [User Experience](#user-experience)
@@ -205,37 +212,60 @@ The website consists of four pages, three of which are accessible from the navig
 
 ### Testing User Stories
 
-- As a **New Customer**, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try.
+- _As a **New Customer**, I want to quickly understand what paragliding is and see stunning images, so I can decide whether it is something I want to try._
 
-![Hero section with engaging images using carousel](docs/test-user-stories/image.png)
-![FAQ section answering beginner question](docs/test-user-stories/image-1.png)
+Hero section with engaging images using carousel:
 
-- As a **First-Time Visitor**, I need easy navigation and a user-friendly design, so I can find information quickly without frustration.
+<img src="docs/test-user-stories/image.png" width="500" alt="Hero section with engaging images using carousel">
 
-![Fixed navigation bar](docs/test-user-stories/image-2.png)
-![mobile and tablet responsiveness](docs/test-user-stories/image-3.png)
 
-- As a **Potential Customer**, I want to see available courses and expeditions, so I can choose the best option for me.
-![a list of upcoming events](docs/test-user-stories/image-4.png)
+FAQ section answering beginner question:
 
-- As an **Experienced Paraglider**, I want to find events suited to my skill level, so I can fly with peers of a similar experience level.
+<img src="docs/test-user-stories/image-1.png" width="500" alt="FAQ section answering beginner question">
 
-![events clearly marked as beginner, intermediate or advanced](docs/test-user-stories//image-5.png)
+- _As a **First-Time Visitor**, I need easy navigation and a user-friendly design, so I can find information quickly without frustration._
 
-- As a **Regular Customer**, I want to sign up for a newsletter and updates, so I can be informed about new offers and events.
+Fixed navigation bar:
 
-![a subscription form for newsletter](docs/test-user-stories/image-6.png)
+<img src="docs/test-user-stories/image-2.png" width="500" alt="Fixed navigation bar">
 
-- As a **Customer**, I want to easily reserve my place on a trip or event and request more information about it.
+Mobile and tablet responsiveness:
 
-![contact page](docs/test-user-stories/image-7.png)
-![confirmation page](docs/test-user-stories/image-8.png)
+<img src="docs/test-user-stories/image-3.png" width="200" alt="Mobile and tablet responsiveness">
+
+- _As a **Potential Customer**, I want to see available courses and expeditions, so I can choose the best option for me._
+
+A list of upcoming events:
+
+<img src="docs/test-user-stories/image-4.png" width="500" alt="A list of upcoming events">
+
+- _As an **Experienced Paraglider**, I want to find events suited to my skill level, so I can fly with peers of a similar experience level._
+
+Events clearly marked as beginner, intermediate or advanced:
+
+<img src="docs/test-user-stories//image-5.png" width="500" alt="Events clearly marked as beginner, intermediate or advanced">
+
+- _As a **Regular Customer**, I want to sign up for a newsletter and updates, so I can be informed about new offers and events._
+
+A subscription form for newsletter:
+
+<img src="docs/test-user-stories/image-6.png" width="300" alt="A subscription form for newsletter">
+
+- _As a **Customer**, I want to easily reserve my place on a trip or event and request more information about it._
+
+Contact page with the text area:
+
+<img src="docs/test-user-stories/image-7.png" width="500" alt="Contact page with the text area">
+
+Confirmation page:
+
+<img src="docs/test-user-stories/image-8.png" width="400" alt="Confirmation page">
 
 ### Manual Testing
 
 Manual testing was performed on two different browsers—Chrome and Microsoft Edge — on both a laptop with a large screen and a mobile phone (Android) using Chrome.
 
-1. On every page, I clicked all possible links to ensure they behaved as expected. External links correctly opened in a separate window.
+1. On every page, I clicked all possible links to ensure they behaved as expected. All 3 external links correctly opened in a separate window.
 
 I also tested the Contact & Booking form:
 
@@ -254,26 +284,34 @@ To resolve this temporarily, I linked the signup form to the existing success/th
 
 ### Automated Testing
 
-[validator w3](https://validator.w3.org/) was used to validate the HTML on all pages, and [jigsaw.w3](https://jigsaw.w3.org/css-validator/) for style.css and the code passed with no errors or warnings to show.
+[validator W3](https://validator.w3.org/) was used to validate the HTML on all pages, and [jigsaw.w3](https://jigsaw.w3.org/css-validator/) for style.css and the code passed with no errors or warnings to show.
 - index.html page <img src="docs/w3w/w3c-index.png" width="200" alt="index.html validation">
 - events.html page <img src="docs/w3w/w3c-events.png" width="200" alt="events.html page validation">
-- [contact.html](docs/w3w/w3c-contact.png)
-- [success.html](docs/w3w/w3c-success.png)
-- [style.css](docs/w3w/w3w-css.png)
+- contact.html page <img src="docs/w3w/w3c-contact.png" width="200" alt="Contact.html validator">
+- success.html page <img src="docs/w3w/w3c-success.png" width="200" alt="Succes.html page validator">
+- style.css page <img src="docs/w3w/w3w-css.png" width="200" alt="style.css page validator">
 
 The final Lighthouse (Chrome Dev Tools) testing to check the performance, accessibility, best practices and SEO.
-- [mobile-index.html](docs/lighthouse/mobile-index.png)
-- [desktop-index.html](docs/lighthouse/desktop-index.png)
-- [mobile-events.html](docs/lighthouse/mobile-events.png)
-- [desktop-events.html](docs/lighthouse/desktop-events.png)
-- [mobile-contact.html](docs/lighthouse/mobile-contact.png)
-- [desktop-contact.html](docs/lighthouse/desktop-contact.png)
-- [mobile-success.html](docs/lighthouse/mobile-success.png)
-- [desktop-success.html](docs/lighthouse/desktop-success.png)
+- mobile home page
+![mobile-index.html](docs/lighthouse/mobile-index.png)
+- desktop home page
+![desktop-index.html](docs/lighthouse/desktop-index.png)
+- mobile events page
+![mobile-events.html](docs/lighthouse/mobile-events.png)
+- desktop events page
+![desktop-events.html](docs/lighthouse/desktop-events.png)
+- mobile contact page
+![mobile-contact.html](docs/lighthouse/mobile-contact.png)
+- desktop contact page
+![desktop-contact.html](docs/lighthouse/desktop-contact.png)
+- mobile success page
+![mobile-success.html](docs/lighthouse/mobile-success.png)
+- desktop success page
+![desktop-success.html](docs/lighthouse/desktop-success.png)
 
 
 [validator.w3](https://validator.w3.org/) was used to ensure there are no broken internal links
-- [no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
+- ![no-broken-inernal-links](docs/w3w/w3-no-broken-links.png)
 
 ### Accessibility
 
