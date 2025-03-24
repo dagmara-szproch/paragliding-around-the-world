@@ -1,4 +1,4 @@
-# paragliding-around-the-world
+# ![favicon](assets/favicon/favicon-32x32.png) paragliding-around-the-world
 ![Am I Responsive](assets/images/am-i-responsive.png)
 
 ---
@@ -30,8 +30,8 @@
 
 
 
-
-## User Experience
+ 
+## ![favicon](assets/favicon/favicon-32x32.png) User Experience
 
 ### Project Goals
 **Paraglobe** is a fictitious client — a paragliding company that not only provides training for new enthusiasts but also specialises in organising training sessions and adventure expeditions around the world. As a member, you can learn to paraglide in breathtaking locations with guaranteed favourable weather conditions.
@@ -132,7 +132,7 @@ Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
 ---
 
-## Features
+## ![favicon](assets/favicon/favicon-32x32.png) Features
 
 The website consists of four pages, three of which are accessible from the navigation bar. All pages share the same navbar and footer.
 
@@ -163,7 +163,7 @@ The website consists of four pages, three of which are accessible from the navig
 
 ---
 
-## Technologies Used
+## ![favicon](assets/favicon/favicon-32x32.png)Technologies Used
 
 - HTML and CSS were used as the languages.
 - [Balsamiq](https://balsamiq.com/) to create wireframes.
@@ -185,14 +185,14 @@ The website consists of four pages, three of which are accessible from the navig
 
 ---
 
-## Code
+## ![favicon](assets/favicon/favicon-32x32.png) Code
 
 - Bootstrap 5.3.x was used throughout the project to style and structure various elements, including the navbar, containers, carousel, buttons, link buttons, accordion, forms, and cards.
 - Code Institute tutorials: contact form from Boardwalk Games project.
 
 ---
 
-## Testing
+## ![favicon](assets/favicon/favicon-32x32.png) Testing
 
 ### Bugs
  1. [validator W3](https://validator.w3.org/) - I used this tool regularly after an issue arose when using a Prettier extension in VS Code. It altered my code unexpectedly, adding trailing slashes on void elements, which had no effect and interfered with unquoted attribute values. From that point on, I made it a habit to check my code frequently.
@@ -324,7 +324,7 @@ The final Lighthouse (Chrome Dev Tools) testing to check the performance, access
 
 ---
 
-## Deployment
+## ![favicon](assets/favicon/favicon-32x32.png) Deployment
 
 The website was deployed using GitHub Pages, which provides a simple way to host static websites directly from a GitHub repository. Below are the steps taken to deploy the project:
 
@@ -346,7 +346,7 @@ The website was deployed using GitHub Pages, which provides a simple way to host
 
 --
 
-## Maintenance & Updates
+## ![favicon](assets/favicon/favicon-32x32.png) Maintenance & Updates
 Ongoing maintenance and updates are essential to ensure the website remains functional, informative, and user-friendly. Below are planned improvements and updates for the project:
 
 1. Enhanced Trip Descriptions
@@ -371,7 +371,7 @@ Ongoing maintenance and updates are essential to ensure the website remains func
 - Ensure all new content meets accessibility standards (e.g., alt text, keyboard navigation).
 
 
-## Credits
+## ![favicon](assets/favicon/favicon-32x32.png) Credits
 
 ### Content
 - https://openai.com/chatgpt/overview/ The content was written by me but was reviewed for spelling, grammar and consistency, and enhanced with the help of ChatGPT. Some sections were also translated and refined to improve readability. I also asked ChatGPT for FAQs about paragliding, and it provided the answers. Additionally, ChatGPT helped by providing information on the best places to paraglide and the reasons why they are ideal.
